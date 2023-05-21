@@ -7,6 +7,9 @@ const VideoSchema = new mongoose.Schema(
     title: {
       type: String,
     },
+    image: {
+      type: String,
+    },
   },
   { timestamps: true }
 );
